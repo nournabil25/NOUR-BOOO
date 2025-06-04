@@ -1,0 +1,220 @@
+*{
+  margin: 0%;  padding: 0%;
+}
+/* التغيرات ف الnavbar */
+div#navbarSupportedContent {
+    background: linear-gradient(45deg, #4d4ddf, #9499f1);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 50px;
+}
+/* علامه ال search  */
+button.my-2.my-sm-0 {
+    border: none;
+    position: absolute;
+    right: 37px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 50px;
+}
+button.my-2.my-sm-0:hover{
+    background: linear-gradient(45deg, #4d4ddf, #9499f1);
+    color: white;
+    transition: 500ms;
+}
+@media (min-width: 576px) { /* المرب بتاع ال search  */
+    .form-inline .form-control {
+        display: inline-block;
+        width: auto;
+        vertical-align: middle;
+        border-radius: 50px;
+    }
+}
+html.fontawesome-i2svg-active.fontawesome-i2svg-complete { /*عشان ال ناف بار و الصوره الشعار حنب بعض */
+    align-items: center;
+}
+.nav-item {
+    margin-left: 40px;
+    padding-right: 35px;
+}
+/* الون الخاص ب ال link navbar */
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+.nav-link:hover{ /* تاثير ال لمس ل الكلام  */
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    transition: 300ms;
+    border-top: white;
+    border-top: 2px solid #ffffff;
+}
+@media(max-width: 375px) and (max-height: 812px){
+ div#navbarSupportedContent {
+    background: linear-gradient(45deg, #4d4ddf, #9499f1);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 21px;
+}
+}
+/* ال header */
+.col-md-7 { /* مكان الكتابه  */
+    right: -45px;
+    top: 98px;
+    height: 97px;
+}
+nav h2 { /*كلمه ال  hellow*/
+    color: blue;
+    font-size: 50px;
+    font-family: cursive;
+}
+nav p {
+    color: black;
+    font-size: 25px;
+}
+.domain{ /*ال كتاب الشفافه الي تحت */
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.caption ul a.button /*ال زرار ال2 الي تحت */
+ {
+    color: white;
+}
+.caption li  { /* الخلفيه بتاعت ال زر  */
+    padding: 0%;
+    display: inline-block;
+    margin-right: 43px;
+    background: linear-gradient(45deg, #1515db, #9499f1);
+    padding: 10px 43px;
+    border-radius: 50px;
+    margin-top: 12px;
+}
+.container li:hover { /* الخلفيه ل الزر hover */
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    line-height: 1,5;
+    transition: 300ms;
+}
+.caption ul a.button:hover /* النص لما ال hover  */
+ {
+    color: black;
+}
+ imgone img {  /* ال تنسيق بتاع الصوره  */
+    height: 350px;
+    margin-top: 70px;
+    margin-left: 95px;
+}
+footer ul li a {
+    color: #4d4ddf;
+    width: 32px;
+    height: 32px;
+    border: 1px solid;
+    border-radius: 50px;
+    display: block;
+    display: grid;
+    place-content: center;
+}
+footer ul li a:hover {
+    color: white;
+    background-color: #4d4ddf;
+    transition: 300ms;
+}
+ul li{
+    list-style-type: none;
+}
+li
+li {
+    width: min-content;
+}
+.footer-text{ /*الخاص ب النص المجاور ل footer */
+    position: absolute;/* ملحوطه اللون و الشكل ف ال html بداخل style */
+    top: -107px;
+    right: -165px;
+}
+/* ظبط مقاس ال قسم الاول  */
+ @media (max-width: 575.98px) {
+    .col-md-5 {
+    top: 224px;
+    right: -6px;
+}
+.hide-on-mobile {
+    display: none; /* إخفاء العنصر */
+ }
+nav.navbar.navbar-expand-lg.navbar-light {/* نحريك ال nav  */
+    right: -20px;
+}
+ }
+
+ /* استعلام وسائط للآيباد الرأسي (Portrait) عرض الشاشة بين 768px - 1023.98px */
+  @media (min-width: 768px) and (max-width: 1023.98px) {
+ 
+  }
+  /* استعلام وسائط للآيباد الأفقي (Landscape) عرض الشاشة بين 1024px - 1279.98px */
+  @media (min-width: 1024px) and (max-width: 1279.98px) {
+ .d-flex.align-items-center { 
+    position: absolute;
+    right: 465px;
+    top: 16px;
+    font-size: 20px;
+}
+  }
+  /* 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 */
+  /* بسم الله نبداء الجزء التاني  */
+.content-two img{/*صوره الاولي left */
+    height: 390px;
+    margin-top: 180px;
+    position: absolute;
+    left: 96px;
+}
+.content-two-text p{ /* كلام المقابل ل الصوره ف جزء اول  */
+    margin-top: 306px;
+    margin-left: 49px;
+    font-size: 19px;
+    font-family: cursive;
+}
+.img-two img{
+    height: 340px;
+    margin-top: 110px;
+}
+.content-two-text-two p{
+    margin-top: 233px;
+    margin-left: 56px;
+    font-size: 19px;
+    font-family: cursive;
+}
+/* نهايه الجزيء التاني  */
+@media (max-width: 575.98px){
+    .content-two-text p {/* النص الاول  */
+    margin-top: 306px;
+    margin-left: 59px;
+    font-size: 19px;
+    font-family: cursive;
+}
+.img-two img {/* الصوؤه التانيه */
+    height: 340px;
+    margin-top: 45px;
+    position: absolute;
+    top: -18px;
+    right: -10px;
+}
+.content-two-text-two p {/* النص التاني  */
+    margin-top: 360px;
+    margin-left: 58px;
+    font-size: 19px;
+    font-family: cursive;
+}
+.content-two img {/* الصوره ل النص التاني  */
+    height: 390px;
+    margin-top: 516px;
+    position: absolute;
+    left: 30px;
+}
+}
+
+
+
+
